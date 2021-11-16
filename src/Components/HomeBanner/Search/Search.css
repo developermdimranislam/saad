@@ -1,0 +1,6 @@
+.result:nth-child(2n){
+    background-color: rgb(229 255 255);
+}
+.gap{
+    gap: 20px;
+}

@@ -6,15 +6,26 @@ a{
     outline: none !important;
 }
 .btn-sahil{
-    background-color: rgb(204, 0, 204);
-    border: rgb(204, 0, 204);
+    background-color: salmon;
+    border: salmon;
     color: #fff;
 }
 .btn-sahil:hover{
-    background-color: rgb(150, 0, 150);
-    border: rgb(150, 0, 150);
+    background-color: rgb(206, 106, 94);
+    border: rgb(206, 106, 94);
     color: #fff;
 }
 body{
     overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+    background-color: lightsalmon;
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(228, 119, 107);
+}
+::-webkit-scrollbar-thumb:active{
+    background-color: rgb(206, 113, 103);
 }
